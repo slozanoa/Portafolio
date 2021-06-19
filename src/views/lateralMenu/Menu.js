@@ -15,13 +15,13 @@ const Menu = () => {
           <h1>Santiago lozano Alvarez</h1>
         </div>
         <div className="redes">
-          <button type="button" onclick={urlLinkedin}>
+          <button type="button" onClick={urlLinkedin}>
             <i className="fab fa-linkedin"></i>
           </button>
-          <button type="button" onclick={urlLinkedin}>
+          <button type="button" onClick={urlLinkedin}>
             <i className="fab fa-github"></i>
           </button>
-          <button type="button" onclick={urlLinkedin}>
+          <button type="button" onClick={urlLinkedin}>
             <i className="fab fa-twitter"></i>
           </button>
         </div>
