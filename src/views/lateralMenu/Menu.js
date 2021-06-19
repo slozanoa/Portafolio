@@ -1,9 +1,10 @@
 import imagenes from "../../exportImg";
+import OptionsMenu from "./OptionsMenu";
 const Menu = () => {
   const urlLinkedin = (e) => {
-      debugger
+    debugger;
     window.location.href = "https://www.linkedin.com/in/slozanoa/";
-  }
+  };
   return (
     <div className="container-lateral">
       <div className="container-info">
@@ -14,11 +15,23 @@ const Menu = () => {
           <h1>Santiago lozano Alvarez</h1>
         </div>
         <div className="redes">
-          <button type='button' onclick={urlLinkedin}>
-            <i class="fab fa-linkedin"></i>
+          <button type="button" onclick={urlLinkedin}>
+            <i className="fab fa-linkedin"></i>
+          </button>
+          <button type="button" onclick={urlLinkedin}>
+            <i className="fab fa-github"></i>
+          </button>
+          <button type="button" onclick={urlLinkedin}>
+            <i className="fab fa-twitter"></i>
           </button>
         </div>
+        {/* <div>
+          <label htmlFor="" className="icon-menu"><i class="fas fa-bars"></i></label>
+        </div> */}
+
+        <div></div>
       </div>
+      <OptionsMenu />
     </div>
   );
 };
