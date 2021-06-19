@@ -14,13 +14,40 @@ code {
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 5fr;
+  grid-template-columns: 300px auto;
   grid-column-gap: 20px;
   grid-row-gap: 20px;
   justify-items: stretch;
   align-items: stretch;
 }
 .menu{
+  color: #fff;
   height: 100vh;
   background-color: black;
+}
+/* menu lateral */
+.container-lateral  {
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+.container-info {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  align-content:center;
+  margin-top: 20px;
+}
+.imgRedonda {
+  width:150px;
+  height:150px;
+  border-radius:180px;
+  -webkit-border-radius:180px;
+  -moz-border-radius:180px;
+  -ms-border-radius:180px;
+  -o-border-radius:180px;
+}
+h1 {
+  font-size: 20px;
 }

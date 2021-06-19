@@ -1,9 +1,11 @@
-import "./App.css";
+import Menu from './views/lateralMenu/Menu'
 
 function App() {
   return (
     <div className="grid">
-      <div className="menu">Santiago lozano</div>
+      <div className="menu">
+        <Menu/>
+      </div>
       <div className="page">Acerca de mi</div>
     </div>
   );
