@@ -1,3 +1,5 @@
+import React from 'react'
+
 import imagenes from "../../exportImg";
 import OptionsMenu from "./OptionsMenu";
 const Menu = () => {

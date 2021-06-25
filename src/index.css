@@ -1,3 +1,8 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   overflow: hidden;
@@ -16,8 +21,6 @@ code {
 .grid {
   display: grid;
   grid-template-columns: 300px auto;
-  grid-column-gap: 20px;
-  grid-row-gap: 20px;
   justify-items: stretch;
   align-items: stretch;
 }
@@ -73,4 +76,32 @@ nav a{
 nav a:hover {
   border-left: 5px solid #c7c7c7;
   background: #1f1f1f;
+}
+.page{
+  overflow: auto
+}
+.home{
+  display: flex;
+  color: #fff;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  align-content:center;
+  height: 100%;
+  background: #16222A;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.home  h1{
+  font-size: 5em;
+}
+.home  h4{
+  font-size: 2em;
+}
+.container{
+  width: 90%;
+  margin: auto;
+}
+.about{
+  margin-top: 2em;
 }
