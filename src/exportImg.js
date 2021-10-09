@@ -7,6 +7,7 @@ import react from "./assets/img/reactjs.png"
 import git from "./assets/img/git.png"
 import bootstrap from "./assets/img/bootstrap.png"
 import material from "./assets/img/material-ui.png"
+import header from './assets/img/header.svg'
  // eslint-disable-next-line import/no-anonymous-default-export
 export default {
   img1: santiago,
@@ -18,4 +19,5 @@ export default {
   node,
   bootstrap,
   material,
+  header
 };

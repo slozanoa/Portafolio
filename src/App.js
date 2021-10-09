@@ -1,14 +1,8 @@
-import Menu from './views/lateralMenu/Menu'
-import PanelInfo from './views/panelInfo/PanelInfo';
+import Header from "./views/header";
 function App() {
   return (
-    <div className="grid">
-      <div className="menu">
-        <Menu/>
-      </div>
-      <div className="page">
-        <PanelInfo/>
-      </div>
+    <div>
+        <Header/>
     </div>
   );
 }
