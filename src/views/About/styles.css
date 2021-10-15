@@ -1,0 +1,36 @@
+:root {
+    --my-color-black: #212121;
+    --my-color-teal: #6D9886;
+    --my-color-beige: #D9CAB3;
+    --my-color-grey: #F6F6F6;
+    --my-color-white: #fff;
+  }
+  
+.backgroudAbout{
+    padding: 80px 0;
+}
+h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: var(--my-color-teal);
+}
+
+.contenido-about{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contenido-about>img {
+    width: 30%;
+    margin-top: 80px;
+}
+.contenido-about .textos-about{
+    width: 60%;
+}
+.textos-about h3{
+    margin-bottom: 7px;
+}
+.textos-about .introdution{
+    margin-bottom: 10px;
+}

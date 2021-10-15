@@ -1,0 +1,36 @@
+:root {
+    --my-color-black: #212121;
+    --my-color-teal: #6D9886;
+    --my-color-beige: #d3d0cc;
+    --my-color-grey: #F6F6F6;
+    --my-color-white: #fff;
+  }
+  
+.skills {
+    background: var(--my-color-beige);
+}
+
+.contenedor-articulo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin-top: 60px;
+    row-gap: 50px;
+
+}
+.articulo {
+    justify-items: center;
+    align-items: start;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.articulo > img {
+    width: 200px;
+    height: 200px;
+    display:block;
+    margin:auto;
+}
+.articulo > h3 {
+    text-align:center;
+    margin-top: 5px;
+}
